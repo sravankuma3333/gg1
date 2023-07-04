@@ -24,7 +24,7 @@ variable "key_name" {
 
 }
 variable "privet_key" {
-  default     = "github.com/sravankuma3333/gg1/blob/master/master-k8t.pem"
+  default     = "master-k8t.pem"
   type        = string
   description = "this is my privet_key"
 }
