@@ -10,7 +10,7 @@ resource "aws_instance" "uat_web" {
   connection {
     type        = "ssh"
     user        = "ubuntu"
-    private_key = file(var.privet_key)
+    private_key = file("github.com/sravankuma3333/gg1.git")
     host        = self.public_ip
   }
 
